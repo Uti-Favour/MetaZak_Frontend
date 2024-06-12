@@ -1,3 +1,31 @@
+export const navContent = [
+    {
+      page : 'Home',
+      id: '1',
+      link : '#'
+    },
+    {
+      page : 'About',
+      id: '2',
+      link : '#'
+    },
+    {
+      page : 'Metazak Pro',
+      id: '3',
+      link : '#'
+    },
+    {
+      page : 'Metazak Academy',
+      id: '4',
+      link : '#'
+    },
+    {
+      page : 'Developer',
+      id: '5',
+      link : '#'
+    }
+  ];
+
 export const landingText = [
     {
         header : 'GateWay to Intelligent Crypto Investments.',
@@ -14,6 +42,9 @@ export const landingText = [
 
 export const features = [
     {
+        image: '',
+
+        
         heading : 'Active Addresses',
         description : 'An address is considered active as soon as it becomes a direct participant in a successful transition.'
     },

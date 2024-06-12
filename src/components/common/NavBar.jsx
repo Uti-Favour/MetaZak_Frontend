@@ -1,10 +1,16 @@
 import React from 'react'
+import { navContent } from '../../constant'
+
+
+
 
 const NavBar = () => {
+
+
   return (
-    <div>
-      
-    </div>
+    <>
+       
+    </>
   )
 }
 
