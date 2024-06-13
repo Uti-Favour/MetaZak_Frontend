@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/common/NavBar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import LandingFeatures from "./components/LandingFeatures";
 // import Features from './components/Features'
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
+      <LandingFeatures/>
       <Features />
     </>
   );

@@ -42,31 +42,28 @@ export const landingText = [
 
 export const features = [
     {
-        image: '',
-
-        
+        image: 'public/Bot.svg',
         heading : 'Active Addresses',
-        description : 'An address is considered active as soon as it becomes a direct participant in a successful transition.'
+        description : "An address is regarded as active immediately upon becoming a direct participant in a successful transaction. This designation implies that the address has engaged in a verified and validated exchange or transfer of digital assets, thereby contributing to the network's ongoing activity. The active status is not merely a label but signifies the address's involvement in a legitimate, executed transaction that has been acknowledged and recorded on the blockchain. .",
+        color: 'bg-pink-500'
     },
     {
+        image: 'public/onChain Privacy.svg',
         heading : 'Transaction Volume',
-        description : 'Volume refers to how much in monetary terms a given cryptocurrency has traded over a period of time.'
+        description : "Volume refers to the total monetary value of a specific cryptocurrency that has been traded within a designated period of time. This metric is essential for assessing the liquidity and market activity of the cryptocurrency. High trading volumes typically indicate a high level of interest and activity among traders, suggesting that the cryptocurrency is easily bought and sold without significant price fluctuations.",
+        color: 'bg-teal-400'
     },
     {
+        image: 'public/Zero Transaction.svg',
         heading : 'Supply in Profit  or  Loss',
-        description : 'Total value locked (TVL) Is  a metric used to measure the total value of digital assets that are locked or staked in a particular decentralized finance (DeFi) platform  or decentralized application (dApp).'
+        description : "Total Value Locked (TVL) is a crucial metric used to measure the total value of digital assets that are locked or staked within a particular decentralized finance (DeFi) platform or decentralized application (dApp). This metric encompasses the aggregate value of all cryptocurrencies deposited in a DeFi protocol, including assets staked for yield farming, liquidity provision, lending, and other financial activities facilitated by smart contracts. TVL serves.",
+        color: 'bg-lime-300'
     },
     {
+        image: 'public/Blocks.svg',
         heading : 'Supply Distribution',
-        description : 'The maximum supply is the upper limit of number of tokens that can be created, while the circulating supply is the number of tokens that exist and are available for trade in the market.'
-    },
-    {
-        heading : 'Total Value Locked',
-        description : ' Total value locked (TVL) Is  a metric used to measure the total value of digital assets that are locked or staked in a particular decentralized finance (DeFi) platform  or decentralized application (dApp).'
-    },
-    {
-        heading : 'Realized Profits and Losses ',
-        description : 'The maximum supply is the upper limit the number of token that can be  created, while circulating supply is the number of tokens that exist and are available for trade in the market.'
+        description : 'The maximum supply is the upper limit of number of tokens that can be created, while the circulating supply is the number of tokens that exist and are available for trade in the market.',
+        color: 'bg-cyan-500'
     }
 ];
 
@@ -112,6 +109,8 @@ export const proBenefits = [
         description: 'MetaZak Pro offers users the valuable capability to backtest any token of thier choice using real-time data. This means you can simulate and analyze tokens based on historical data, enabling you to refine your trading strategies, make informed investments decisions, and ultimately enhance your overall trading proficiency.'
     }
 ];
+
+
 
 
 

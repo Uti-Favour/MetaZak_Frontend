@@ -55,9 +55,10 @@ const Hero = () => {
 
         <div className="relative flex justify-center">
           <div className="mt-32 lg:mt-24">
-            <h1 className="text-4xl lg:text-7xl max-w-3xl flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-pink-600 text-center font-bold mx-5 lg:mx-0">
+            <h1 className="text-4xl lg:text-7xl max-w-3xl flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-white to-purple-600 text-center font-bold mx-5 lg:mx-0">
               GateWay to Intelligent Crypto Investment
             </h1>
+
             <p className="flex justify-center mt-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200">
               Empowering the future, one block at a time
             </p>
