@@ -8,7 +8,10 @@ import { motion } from "framer-motion";
 const Features = () => {
   return (
     <>
-      <section className="bg-top bg-no-repeat py-28 bg-purple-900 rounded-tr-[50px] rounded-3xl lg:rounded-tl-[50px]">
+      <section className="bg-top bg-no-repeat py-10 lg:py-16 bg-purple-900 rounded-tr-[50px] rounded-3xl lg:rounded-tl-[50px]">
+        <div className="flex justify-center mb-16">
+          <h1 className="font-bold text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-pink-600 text-center">Metazaksk Mind blowing features</h1>
+        </div>
         <div className="container">
           <div className="mb-8 text-center lg:mb-20">
             <div className="space-y-12">

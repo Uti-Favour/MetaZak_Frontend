@@ -2,7 +2,7 @@ export const navContent = [
     {
       page : 'Home',
       id: '1',
-      link : '#'
+      link : '/src/pages/Home.jsx'
     },
     {
       page : 'About',
@@ -24,7 +24,7 @@ export const navContent = [
       id: '5',
       link : '#'
     }
-  ];
+  ]
 
 export const landingText = [
     {
@@ -111,6 +111,24 @@ export const proBenefits = [
 ];
 
 
-
+export const listedFeature = [
+    {
+        icon : '',
+        heading : 'Expowering Crypto Exchange',
+        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+    },
+    {
+        heading : 'One Block At a Time',
+        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+    },
+    {
+        heading : 'Security at the highest level',
+        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+    },
+    {
+        heading : 'Giving Developers Freedom They Need',
+        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+    }
+];
 
 
