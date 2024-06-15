@@ -13,6 +13,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <Features />
+      <LandingFeatures />
       </div>
     </>
   );

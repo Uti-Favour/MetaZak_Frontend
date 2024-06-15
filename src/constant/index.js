@@ -113,21 +113,24 @@ export const proBenefits = [
 
 export const listedFeature = [
     {
-        icon : '',
+        icon : 'fa-brands fa-bitcoin text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
         heading : 'Expowering Crypto Exchange',
-        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+        paragrapgh : 'Market, Limit, Stop Limit, and Auction Mode orders.'
     },
     {
+        icon : 'fa-solid fa-database text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
         heading : 'One Block At a Time',
-        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+        paragrapgh : 'Charts powered by TradingView with EMA, MA, MACD, RSI, and Bollinger Bands.'
     },
     {
+        icon : 'fa-solid fa-spinner text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
         heading : 'Security at the highest level',
-        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+        paragrapgh : 'Seamlessly switch between Simple and Advanced Trade.'
     },
     {
+        icon : 'fa-solid fa-wallet text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
         heading : 'Giving Developers Freedom They Need',
-        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant in a successful transaction.'
+        paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant.'
     }
 ];
 
