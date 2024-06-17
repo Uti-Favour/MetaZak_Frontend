@@ -113,25 +113,64 @@ export const proBenefits = [
 
 export const listedFeature = [
     {
-        icon : 'fa-brands fa-bitcoin text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
+        icon : 'fa-brands fa-bitcoin text-3xl text-purple-900',
         heading : 'Expowering Crypto Exchange',
-        paragrapgh : 'Market, Limit, Stop Limit, and Auction Mode orders.'
+        paragrapgh : 'Dutch users can transfer funds instantly to their Coinbase account for free using iDEAL.'
     },
     {
-        icon : 'fa-solid fa-database text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
+        icon : 'fa-solid fa-database text-3xl  text-purple-900',
         heading : 'One Block At a Time',
         paragrapgh : 'Charts powered by TradingView with EMA, MA, MACD, RSI, and Bollinger Bands.'
     },
     {
-        icon : 'fa-solid fa-spinner text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
+        icon : 'fa-solid fa-shield-halved text-3xl  text-purple-900',
         heading : 'Security at the highest level',
-        paragrapgh : 'Seamlessly switch between Simple and Advanced Trade.'
+        paragrapgh : 'Earn up to 5% yield on USDC and up to 6% yield on some of our staking assets.'
     },
     {
-        icon : 'fa-solid fa-wallet text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500',
+        icon : 'fa-solid fa-wallet text-3xl  text-purple-900',
         heading : 'Giving Developers Freedom They Need',
         paragrapgh : 'An address is regarded as active immediately upon becoming a direct participant.'
     }
 ];
 
+
+export const gridtext = [
+    {
+        icon: 'fa-brands fa-ethereum text-3xl',
+        heading: 'Innovating Crypto Trading',
+        paragraph: 'Instant, Limit, Stop Loss, and Auction Mode options.',
+        link : 'www.google.com'
+    },
+    {
+        icon: 'fa-solid fa-chart-line text-3xl',
+        heading: 'Building Blockchains',
+        paragraph: 'Advanced charts with EMA, MA, MACD, RSI, and Fibonacci Retracement.',
+        link : 'www.google.com'
+    },
+    {
+        icon: 'fa-solid fa-shield-alt text-3xl',
+        heading: 'Top-Tier Security',
+        paragraph: 'Effortlessly switch between Basic and Pro Trading views.',
+        link : 'www.google.com'
+    },
+    {
+        icon: 'fa-solid fa-code text-3xl',
+        heading: 'Empowering Developers',
+        paragraph: 'Addresses are considered active once they are directly involved in a transaction.',
+        link : 'www.google.com'
+    },
+    {
+        icon: 'fa-solid fa-network-wired text-3xl',
+        heading: 'Connecting Decentralized Networks',
+        paragraph: 'Integrate seamlessly with various blockchain networks and protocols.',
+        link : 'www.google.com'
+    },
+    {
+        icon: 'fa-solid fa-lock text-3xl',
+        heading: 'Enhanced Privacy Features',
+        paragraph: 'Utilize cutting-edge encryption for secure transactions and data privacy.',
+        link : 'www.google.com'
+    }
+]
 
