@@ -16,7 +16,8 @@ const App = () => {
         <Hero />
         <Features />
         <LandingFeatures />
-        <GridList/>
+       <GridList/>
+       
       </div>
     </>
   );

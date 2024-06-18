@@ -62,7 +62,7 @@ export const features = [
     {
         image: 'public/Blocks.svg',
         heading : 'Supply Distribution',
-        description : 'The maximum supply is the upper limit of number of tokens that can be created, while the circulating supply is the number of tokens that exist and are available for trade in the market.',
+        description : 'The maximum supply is the upper limit of number of tokens that can be created, while the circulating supply is the number of tokens that exist and are available for trade in the market. On the other hand, the circulating supply refers to the number of tokens that are currently available for trading and circulation in the market. This includes all tokens that are not locked, reserved, or otherwise restricted. ',
         color: 'bg-cyan-500'
     }
 ];
@@ -137,40 +137,62 @@ export const listedFeature = [
 
 export const gridtext = [
     {
-        icon: 'fa-brands fa-ethereum text-3xl',
+        id: 1,
+        icon: 'fa-brands fa-ethereum text-purple-900 text-4xl',
         heading: 'Innovating Crypto Trading',
-        paragraph: 'Instant, Limit, Stop Loss, and Auction Mode options.',
-        link : 'www.google.com'
+        paragraph: 'Instant, Limit, Stop Loss, and Auction Mode options, offering traders a versatile and dynamic trading experience across various market conditions.',
+        link: 'www.google.com'
     },
     {
-        icon: 'fa-solid fa-chart-line text-3xl',
+        id: 2,
+        icon: 'fa-solid fa-chart-line text-purple-900 text-4xl',
         heading: 'Building Blockchains',
-        paragraph: 'Advanced charts with EMA, MA, MACD, RSI, and Fibonacci Retracement.',
-        link : 'www.google.com'
+        paragraph: 'Advanced charts with EMA, MA, MACD, RSI, and Fibonacci Retracement provide traders with comprehensive tools for technical analysis and market predictions.',
+        link: 'www.google.com'
     },
     {
-        icon: 'fa-solid fa-shield-alt text-3xl',
+        id: 3,
+        icon: 'fa-solid fa-shield-alt text-purple-900 text-4xl',
         heading: 'Top-Tier Security',
-        paragraph: 'Effortlessly switch between Basic and Pro Trading views.',
-        link : 'www.google.com'
+        paragraph: 'Effortlessly switch between Basic and Pro Trading views, ensuring both novice and experienced traders can maximize their security and efficiency.',
+        link: 'www.google.com'
     },
     {
-        icon: 'fa-solid fa-code text-3xl',
+        id: 4,
+        icon: 'fa-solid fa-code text-3xl text-purple-900 text-4xl',
         heading: 'Empowering Developers',
-        paragraph: 'Addresses are considered active once they are directly involved in a transaction.',
-        link : 'www.google.com'
+        paragraph: 'Addresses are considered active once they are directly involved in a transaction, enabling developers to track activity and engagement within the blockchain.',
+        link: 'www.google.com'
     },
     {
-        icon: 'fa-solid fa-network-wired text-3xl',
+        id: 5,
+        icon: 'fa-solid fa-network-wired text-3xl text-purple-900 text-4xl',
         heading: 'Connecting Decentralized Networks',
-        paragraph: 'Integrate seamlessly with various blockchain networks and protocols.',
-        link : 'www.google.com'
+        paragraph: 'Integrate seamlessly with various blockchain networks and protocols, fostering interoperability and enhancing the efficiency of decentralized applications.',
+        link: 'www.google.com'
     },
     {
-        icon: 'fa-solid fa-lock text-3xl',
+        id: 6,
+        icon: 'fa-solid fa-lock text-3xl text-purple-900 text-4xl',
         heading: 'Enhanced Privacy Features',
-        paragraph: 'Utilize cutting-edge encryption for secure transactions and data privacy.',
-        link : 'www.google.com'
+        paragraph: 'Utilize cutting-edge encryption for secure transactions and data privacy, ensuring users\' information remains confidential and protected against unauthorized access.',
+        link: 'www.google.com'
+    },
+    {
+        id: 7,
+        icon: 'fa-solid fa-wallet text-purple-900 text-4xl',
+        heading: 'Digital Wallet Integration',
+        paragraph: 'Seamlessly integrate digital wallets for quick and secure access to your cryptocurrencies, ensuring convenient management of your digital assets.',
+        link: 'www.google.com'
+    },
+    {
+        id: 8,
+        icon: 'fa-solid fa-coins text-purple-900 text-4xl',
+        heading: 'Diverse Crypto Assets',
+        paragraph: 'Access a wide variety of cryptocurrencies, allowing you to diversify your investment portfolio and explore emerging digital assets with high potential.',
+        link: 'www.google.com'
     }
 ]
+
+
 
