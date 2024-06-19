@@ -2,8 +2,9 @@ import React from "react";
 import NavBar from "./components/common/NavBar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import LandingFeatures from "./components/LandingFeatures";
-import GridList from "./components/GridFeatures";
+import { LandingFeatures } from "./components/Features";
+import { GridList } from "./components/Features";
+
 
 // import Features from './components/Features'
 
