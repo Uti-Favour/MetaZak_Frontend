@@ -54,11 +54,10 @@ const Features = () => {
   );
 };
 
-
 export const LandingFeatures = () => {
   return (
     <>
-      <div className="bg-white ">
+      <div className="bg-white">
         <div className="lg:flex lg:space-x-5 lg:mx-10 mx-5 lg:mt-24 mt-16">
           {/* Text Div */}
           <div className="lg:ml-16">
@@ -85,7 +84,7 @@ export const LandingFeatures = () => {
 
             <div className="mt-16 flex ">
               <a href="#">
-              <Button content={'Learn More'} link={'#'}/>
+                <Button content={"Learn More"} link={"#"} />
               </a>
               <a href="#">
                 <button className="py-3 px-10 border-white  border-rounded-3xl text-md  font-bold text-gray-900">
@@ -107,12 +106,10 @@ export const LandingFeatures = () => {
   );
 };
 
-
-
 const GridFeatures = ({ icon, heading, description, link }) => {
   return (
     <>
-      <div className="border border-slate-200 py-8 px-4 rounded-xl">
+      <div className="border border-slate-200 py-8 px-4 rounded-lg">
         <i className={icon}></i>
         <h2 className="text-xl font-normal mt-6">{heading}</h2>
         <p className="text-gray-700 mt-2 mb-10 leading-8">{description}</p>
@@ -127,7 +124,13 @@ const GridFeatures = ({ icon, heading, description, link }) => {
 export const GridList = () => {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-4 mx-5 lg:mx-24 mt-10 lg:mt-24 gap-4">
+      <div className="ml-5 lg:ml-24 lg:mt-32 mt-16">
+        <h1 className="text-3xl lg:text-4xl max-w-sm lg:max-w-none text-gray-950 font-normal">
+        The most trusted onChain Analysis Platform
+        </h1>
+        <p className="mt-5 text-xl text-gray-700 ">Millions of users trust us, and so can you. The proof is in our platform:</p>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-4 mx-5 lg:mx-24 mt-16 lg:mt-16 gap-4">
         {gridtext.map((lists) => (
           <GridFeatures
             key={lists.id}
@@ -141,6 +144,5 @@ export const GridList = () => {
     </>
   );
 };
-
 
 export default Features;

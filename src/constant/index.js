@@ -163,7 +163,7 @@ export const gridtext = [
         heading: 'Empowering Developers',
         paragraph: 'Addresses are considered active once they are directly involved in a transaction, enabling developers to track activity and engagement within the blockchain.',
         link: 'www.google.com'
-    }
+    },
 ]
 
 
