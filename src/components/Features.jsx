@@ -1,5 +1,6 @@
 import React from "react";
 import { features, listedFeature, gridtext } from "../constant";
+import Button from "./common/Button";
 
 const Features = () => {
   return (
@@ -84,9 +85,7 @@ export const LandingFeatures = () => {
 
             <div className="mt-16 flex ">
               <a href="#">
-                <button className="py-3 px-10 bg-purple-900 rounded-3xl text-md  font-bold text-white">
-                  Learn More
-                </button>
+              <Button content={'Learn More'} link={'#'}/>
               </a>
               <a href="#">
                 <button className="py-3 px-10 border-white  border-rounded-3xl text-md  font-bold text-gray-900">

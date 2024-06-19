@@ -145,7 +145,7 @@ export const gridtext = [
     },
     {
         id: 2,
-        icon: 'fa-solid fa-chart-line text-purple-900 text-4xl',
+        icon: 'fa-solid fa-coins text-purple-900 text-4xl',
         heading: 'Building Blockchains',
         paragraph: 'Advanced charts with EMA, MA, MACD, RSI, and Fibonacci Retracement provide traders with comprehensive tools for technical analysis and market predictions.',
         link: 'www.google.com'
@@ -159,37 +159,9 @@ export const gridtext = [
     },
     {
         id: 4,
-        icon: 'fa-solid fa-code text-3xl text-purple-900 text-4xl',
+        icon: 'fa-solid fa-network-wired text-3xl text-purple-900 text-4xl',
         heading: 'Empowering Developers',
         paragraph: 'Addresses are considered active once they are directly involved in a transaction, enabling developers to track activity and engagement within the blockchain.',
-        link: 'www.google.com'
-    },
-    {
-        id: 5,
-        icon: 'fa-solid fa-network-wired text-3xl text-purple-900 text-4xl',
-        heading: 'Connecting Decentralized Networks',
-        paragraph: 'Integrate seamlessly with various blockchain networks and protocols, fostering interoperability and enhancing the efficiency of decentralized applications.',
-        link: 'www.google.com'
-    },
-    {
-        id: 6,
-        icon: 'fa-solid fa-lock text-3xl text-purple-900 text-4xl',
-        heading: 'Enhanced Privacy Features',
-        paragraph: 'Utilize cutting-edge encryption for secure transactions and data privacy, ensuring users\' information remains confidential and protected against unauthorized access.',
-        link: 'www.google.com'
-    },
-    {
-        id: 7,
-        icon: 'fa-solid fa-wallet text-purple-900 text-4xl',
-        heading: 'Digital Wallet Integration',
-        paragraph: 'Seamlessly integrate digital wallets for quick and secure access to your cryptocurrencies, ensuring convenient management of your digital assets.',
-        link: 'www.google.com'
-    },
-    {
-        id: 8,
-        icon: 'fa-solid fa-coins text-purple-900 text-4xl',
-        heading: 'Diverse Crypto Assets',
-        paragraph: 'Access a wide variety of cryptocurrencies, allowing you to diversify your investment portfolio and explore emerging digital assets with high potential.',
         link: 'www.google.com'
     }
 ]

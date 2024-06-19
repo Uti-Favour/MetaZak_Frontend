@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import { LandingFeatures } from "./components/Features";
 import { GridList } from "./components/Features";
-
+import Button from "./components/common/Button";
 
 // import Features from './components/Features'
 
@@ -17,8 +17,7 @@ const App = () => {
         <Hero />
         <Features />
         <LandingFeatures />
-       <GridList/>
-       
+        <GridList />
       </div>
     </>
   );
